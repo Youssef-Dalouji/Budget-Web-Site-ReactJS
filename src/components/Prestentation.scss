@@ -1,0 +1,68 @@
+/*-------------------------------All-------------------------------*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.4rem;
+  }
+  
+  html {
+    font-size: 65.7%;
+  }
+/*----------------------------prestentation----------------------------*/
+.prestentation {
+      color: #fff;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 4rem;
+      position: relative;
+}
+/*----------------------------img----------------------------*/
+.img{
+    height: 15rem;
+}
+/*----------------------------h1----------------------------*/
+h1{
+    font-size: 4rem;
+}
+/*----------------------------input + button----------------------------*/
+.input-btn-budget{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    #budget{
+    width: 350px;
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    }
+    #ok{
+    padding: 1rem 2rem;
+    font-size: 2rem;
+}
+}
+/*----------------------------background : image----------------------------*/
+.bg-img{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+/*----------------------------background : color----------------------------*/
+.bg-color{
+    background-color: rgba(0, 0, 0, 0.514);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+
